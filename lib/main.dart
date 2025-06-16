@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:freeze/Configurations/Theme.dart';
 import 'package:freeze/Pages/Home.dart';
+import 'package:get/get.dart';
 
 void main() {
   runApp(const MyApp());
@@ -11,7 +12,7 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return GetMaterialApp(
       debugShowCheckedModeBanner: false,
       theme: lightTheme,
       darkTheme: darkTheme,

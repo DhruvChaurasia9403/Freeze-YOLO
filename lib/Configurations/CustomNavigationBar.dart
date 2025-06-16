@@ -72,7 +72,6 @@ class ArcPainter extends CustomPainter {
   @override
   void paint(Canvas canvas, Size size) {
     final double arcHeight = 120;
-    final double yOffset = 40;
     final double arcShiftUp = 30; // Only arc is shifted up
 
     // Draw the filled arc, shifted up
